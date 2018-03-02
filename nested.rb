@@ -61,10 +61,10 @@ end
 
 def adding_matz
 # add the following information to the top level of programmer_hash
-# :yukihiro_matsumoto => {
-#   :known_for => "Ruby",
-#    :languages => ["LISP, C"]
-# }
+hash_2 =:yukihiro_matsumoto => {
+  :known_for => "Ruby",
+   :languages => ["LISP, C"]
+}
 
 	programmer_hash =
  		{
@@ -82,7 +82,7 @@ def adding_matz
         }
      }
 
-
+hash_2.merge(programmer_hash)
 end
 
 def changing_alan
